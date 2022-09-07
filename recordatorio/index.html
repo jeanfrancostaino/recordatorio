@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>¡No te olvides!</title>
+</head>
+<body>
+    <header class="header header-dark bg-dark">
+        <label>¡No te olvides de nada!</label>
+    </header>
+        <div class="card text-center" id="Carta">
+            <form action="#" id=Formulario>
+                <div class="card-body" id="Card">
+                    <h5 class="card-title">Titulo</h5>
+                    <input type="text" name="titulo" id="Title" required><br><br>
+                    <h5 class="card-title">Descripción</h5>
+                    <textarea name="Comentario" id="comentario" cols="25" rows="10" placeholder="Ingrese aquí su tarea a recordar..." required></textarea>
+                    <br>
+                    <h5 class="card-title">Importancia</h5>
+                            <label><span class="Alta"> Alta <input type="radio" name="importancia" id="Alta" value="Alta"></span></label>
+                            <label><span class="Media"> Media <input type="radio" name="importancia" id="Media" value="Media"></span></label>
+                            <label><span class="Baja"> Baja <input type="radio" name="importancia" id="Baja" value="Baja"></span></label>
+                        <span><hr></span>
+                    <button type="submit" id="submit" class="btn btn-success">Recordar</button>
+                </div>
+            </form>
+        </div>
+        <div class="Recordatorio">
+            <h5>Tu lista</h5>
+                <div id="Hight"></div>
+                <div id="Medium"></div>
+                <div id="Low"></div>   
+        </div>
+    <footer>
+        Facebook <img src="https://i.pinimg.com/originals/b3/26/b5/b326b5f8d23cd1e0f18df4c9265416f7.png" alt="" width="50px" height="50px">
+        Instagram <img src="https://i.pinimg.com/originals/79/7a/fe/797afe1351677d0ad8787224e6a5be2a.png" alt="" width="50px" height="50px">
+        Twitter <img src="twitter.png" alt="" width="50px" height="50px">    
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

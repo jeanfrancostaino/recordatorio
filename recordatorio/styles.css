@@ -1,0 +1,95 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+label{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 15pt;
+    text-align: center;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wTwFjvw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+span.Alta{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-size: 12pt;
+    background-color: red;
+    padding: 0px 5px 0px 10px;
+    border-radius: 20px;
+}
+span.Media{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-size: 12pt;
+    background-color: darkgoldenrod;
+    padding: 0px 5px 0px 10px;
+    border-radius: 20px;
+}
+span.Baja{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-size: 12pt;
+    background-color: green;
+    padding: 0px 5px 0px 10px;
+    border-radius: 20px;
+}
+footer{
+    background-color: black; 
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.Container{
+    position: relative;
+    float: right;
+    width: 15rem;
+    margin: 5px 20px 5px 5px;
+}
+#Carta{
+    position: relative;
+    float: left;
+    border: 5px darkgreen solid;
+    margin: 5px 5px 50px 5px;
+    border-radius: 2%;
+    height: 570px;
+}
+.Recordatorio{
+    text-align: center;
+}
+.Recordatorio>#Hight{
+    background-color: red;
+    width: 30%;
+    height: max-content;
+    margin-left: 47%;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.Recordatorio>#Medium{
+    background-color: darkgoldenrod;
+    width: 30%;
+    height: max-content;
+    margin-left: 47%;
+    margin-bottom: 7px;
+}
+.Recordatorio>#Low{
+    background-color: darkgreen;
+    width: 30%;
+    height: max-content;
+    margin-left: 47%;
+    margin-bottom: 7px;
+}
+.Recordatorio>h5{
+    font-size: 25pt;
+    color: white;
+    font: bold;
+}
+a.borrar{
+    width: min-content;
+}
